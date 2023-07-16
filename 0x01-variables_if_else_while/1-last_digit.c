@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - A program that check last degit
+ * main - A programm that check if n is greater than 5 less than 6 or 0
  *
- * return: 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
