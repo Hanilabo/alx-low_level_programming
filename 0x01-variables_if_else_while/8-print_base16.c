@@ -10,7 +10,7 @@ int main(void)
 	int num;
 	char lowercase;
 
-	num = '0';
+	num = 0;
 	
 	while (num < 10 )
 	{
