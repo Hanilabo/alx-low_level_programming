@@ -5,9 +5,12 @@
  *
  * Return: 0 (Success)
  */
-int main(void)
-{
-    for (char letter = 'a'; letter <= 'z'; letter++) {
-        putchar(letter);}
-    return(0);
+int main() {
+    char lowercase = 'a';
+
+    while (lowercase <= 'z') {
+        putchar(lowercase);
+        lowercase++;
+    }
+    return(0)
 }
