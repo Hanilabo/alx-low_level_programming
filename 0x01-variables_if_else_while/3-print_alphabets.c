@@ -3,7 +3,7 @@
 /**
  * main - A program that write alphabets in lowercase then in upper case
  *
- * return: 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
@@ -15,14 +15,14 @@ int main(void)
 	while (lowercase <= 'z')
 	{
 		putchar(lowercase);
-		lowercase ++;
+		lowercase++;
 	}
 	uppercase = 'A';
 
 	while (uppercase <= 'Z')
 	{
 		putchar(uppercase);
-		uppercase ++;
+		uppercase++;
 	}
 	putchar('\n');
 	return (0);
