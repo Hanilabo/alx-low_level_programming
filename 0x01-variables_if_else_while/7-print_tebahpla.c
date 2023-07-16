@@ -3,13 +3,13 @@
 /**
  * main - alphabets in revers
  *
- * Result: 0 (success)
+ *Result: 0 (success)
  */
 int main(void)
 {
 	char lowercase = 'z';
 
-	while (lowercase > 'a')
+	while (lowercase >= 'a')
 	{
 		putchar(lowercase);
 			lowercase--;
