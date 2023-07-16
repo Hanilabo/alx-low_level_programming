@@ -12,5 +12,5 @@ int main() {
         putchar(lowercase);
         lowercase++;
     }
-    return(0)
+    return(0);
 }
