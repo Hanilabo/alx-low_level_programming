@@ -5,6 +5,7 @@
  *
  * Return: 0 (Success)
  */
+
 int main(void) 
 {
 	char lowercase = 'a';
@@ -14,6 +15,6 @@ int main(void)
 	putchar(lowercase);
 	lowercase++;
 	}
-    putchar('\n');
-    return (0);
+	putchar('\n');
+    	return (0);
 }
