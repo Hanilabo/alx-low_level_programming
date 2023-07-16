@@ -7,17 +7,19 @@
  */
 int main(void)
 {
-	int num = 0;
-	if (num < 10)
-	{
-		putchar('0' + num);
-		num++;
-	}
-	else if (num != 9)
-	{
-		putchar(44);
-		putchar(32);
-	}
-	putchar('\n');
-	return (0);
+        int num = 0;
+        while (num < 10)
+        {
+                putchar('0' + num);
+                num++;
+                putchar(44);
+                putchar(32);   
+            if (num < 10)
+            {
+                putchar(44);
+                putchar(32);
+            }
+        }       
+        putchar('\n');
+        return (0);
 }
