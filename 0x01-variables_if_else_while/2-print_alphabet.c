@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - A program that print alphabets
+ *main - A program that print alphabets
  *
- * Return: 0 (Success)
+ *Return: 0 (Success)
  */
-int main(void) 
+int main(void)
 {
 	char lowercase = 'a';
 
