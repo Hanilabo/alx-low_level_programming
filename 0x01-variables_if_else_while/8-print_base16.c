@@ -11,15 +11,13 @@ int main(void)
 	char lowercase;
 
 	num = 0;
-	
-	while (num < 10 )
+	while (num < 10)
 	{
 		putchar ('0' + num);
 		num++;
 	}
 	lowercase = 'a';
-	
-	while(lowercase <= 'f')
+	while (lowercase <= 'f')
 	{
 		putchar(lowercase);
 		lowercase++;
