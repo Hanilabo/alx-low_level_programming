@@ -1,4 +1,4 @@
-void pputchar()
+/*void pputchar()
 {
 	putchar('_');
 	putchar('p');
@@ -9,7 +9,7 @@ void pputchar()
 	putchar('a');
 	putchar('r');
 	putchar('\n');
-}
+}*/
 void print_alphabet(void)
 {
 	char lowercase = 'a';
