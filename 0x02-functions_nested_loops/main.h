@@ -10,12 +10,14 @@ void pputchar()
 	putchar('r');
 	putchar('\n');
 }
-void print_alphabet()
+void print_alphabet(void)
 {
-	char ch;
-    for (ch = 'a'; ch <= 'z'; ch++)
-    {
-        putchar(ch);
-    }
-    putchar('\n');
+	char lowercase = 'a';
+
+	while (lowercase <= 'z')
+	{
+	putchar(lowercase);
+	lowercase++;
+	}
+	putchar('\n');
 }
