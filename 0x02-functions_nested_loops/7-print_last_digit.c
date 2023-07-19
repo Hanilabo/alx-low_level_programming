@@ -8,9 +8,8 @@
  * Return: lastdigit number
  */
 int print_last_digit(int num)
-{
-	int lastdigit,
-	    
-	lastdigit = num % 10;
+{    
+	int lastdigit = num % 10;
+
 	return (lastdigit);
 }
