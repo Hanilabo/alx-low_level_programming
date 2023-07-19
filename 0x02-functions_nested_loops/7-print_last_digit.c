@@ -4,7 +4,7 @@
 /**
  * print_last_digit- print last digit
  * @num: number
- * @lastdigit: l
+ * @lastdigit: is last digit
  * Return: lastdigit great. -lastdigit is less
  */
 int print_last_digit(int num)
