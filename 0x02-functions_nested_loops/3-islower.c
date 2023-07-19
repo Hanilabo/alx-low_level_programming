@@ -3,6 +3,8 @@
 #include<ctype.h>
 /**
  * _islower - checks lowercase
+ * c - number
+ * Return: 1 (success)
  */
 int _islower(int c)
 {
