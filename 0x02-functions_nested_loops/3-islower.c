@@ -3,7 +3,7 @@
 #include<ctype.h>
 /**
  * _islower - checks lowercase
- * @param c: The character to be checked
+ * @c: character in ASCII
  * Return: 1 (success)
  */
 int _islower(int c)
