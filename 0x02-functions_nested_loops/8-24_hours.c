@@ -12,10 +12,11 @@ void jack_bauer(void)
 	int ms = 0;
 	while(mf < 5 && ms <9)
 	{
-		_putchar(hf);
-		_putchar(hs);
+		_putchar('0'+hf);
+		_putchar('0'+hs);
 		_putchar(':');
-		_putchar(mf);
-		_putchar(ms);
+		_putchar('0'+mf);
+		_putchar('0'+ms);
+
 	}
 }
