@@ -4,7 +4,7 @@
 /**
  * _islower - checks lowercase
  */
-int _islower(int c)
+int test_islower(int c)
 {
 	if(_islower(c))
 	{
