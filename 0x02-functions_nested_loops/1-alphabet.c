@@ -8,6 +8,13 @@
  */
 int main(void)
 {
-	print_alphabet();
+	char lowercase = 'a';
+
+	while (lowercase <= 'z')
+	{
+	_putchar(lowercase);
+	lowercase++;
+	}
+	_putchar('\n');
 	return (0);
 }
