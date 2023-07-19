@@ -4,9 +4,7 @@
 /**
  * print_sign- prints sing of a number
  * @n: character in ASCII
- * return: 1 (sign is +)
- * return: 0 (is 0)
- * return: -1 (if less than 0)
+:x
  */
 int print_sign(int n)
 {
