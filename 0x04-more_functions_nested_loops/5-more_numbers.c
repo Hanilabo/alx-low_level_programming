@@ -9,11 +9,11 @@ void more_numbers(void)
 {
 	int r = 0;
 
-	while (r < 10)
+	while (r <=  10)
 	{
 		char c = '0';
 		
-		while (c <=14)
+		while (c < 15)
 		{
 			_putchar(c);
 			c++;
