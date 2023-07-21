@@ -1,11 +1,13 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * _isdigit - check if digit
- * @c: number is ASCII
+ * _isdigit - checks for characters that are digits
+ * @c: character 
  *
- * Retun: 1 (isdigit). 0 (notdigit)
+ * Return: 0 or 1
  */
+
+
 int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
