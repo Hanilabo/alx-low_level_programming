@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include"main.h"
 
 /**
@@ -6,9 +5,9 @@
  * @a: number
  * @b: number
  *
- * Return: 0 (success)
+ * Return: multi a and b
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	return (a * b);
 }
