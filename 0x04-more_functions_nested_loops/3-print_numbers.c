@@ -3,9 +3,9 @@
 /**
  * print_numbers - print numbers
  *
- * Return: 0 sucess
+ * Return: void
  */
-void print_numbers(void);
+void print_numbers(void)
 {
 	char num;
 	
