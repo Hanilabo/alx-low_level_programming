@@ -6,7 +6,8 @@
  * _isdigit - check if digit
  * @c: number is ASCII
  * Retun: 1 (isdigit)
- *  */
+ *  
+ */
 int _isdigit(int c)
 {
 	if (isdigit(c))
