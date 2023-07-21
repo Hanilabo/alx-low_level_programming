@@ -5,7 +5,7 @@
 /**
  * _isdigit - check if digit
  * @c: number is ASCII
- * Retun: 1 (isdigit)
+ * Retun: 1 (isdigit). 0 (notdigit)
  *  
  */
 int _isdigit(int c)
