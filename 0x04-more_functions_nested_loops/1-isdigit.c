@@ -3,7 +3,7 @@
 #include<ctype.h>
 
 /**
- * _isdigit- check if digit
+ * _isdigit - check if digit
  * @c: number is ASCII
  * Retun: 1 if digit. 0 if not
  */
