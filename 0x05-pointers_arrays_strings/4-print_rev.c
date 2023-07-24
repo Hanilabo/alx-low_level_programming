@@ -7,5 +7,8 @@
  */
 void print_rev(char *s)
 {
-	printf("\nReversed String is: %s",strrev(str));
+	for (int i = length - 1; i >= 0; i--)
+	{
+		puts(str[i]);
+	}
 }
