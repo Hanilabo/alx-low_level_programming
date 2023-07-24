@@ -7,6 +7,8 @@
  */
 void print_rev(char *s)
 {
+	int lenght;
+
 	for (int i = length - 1; i >= 0; i--)
 	{
 		puts(str[i]);
