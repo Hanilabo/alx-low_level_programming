@@ -7,5 +7,5 @@
  */
 void _puts(char *str)
 {
-	_puts("I do not fear computers. I fear the lack of them - Isaac Asimov:\n");
+	_puts("str:\n");
 }
