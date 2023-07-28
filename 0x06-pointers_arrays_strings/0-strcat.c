@@ -1,32 +1,28 @@
-#include "main.h"
+#include <stdio.h>
+#include "holberton.h"
 
 /**
- * _strcat - Concatenates two strings.
- * @dest: Pointer to the destination string.
- * @src: Pointer to the source string.
- *
- * Return: Pointer to the resulting string (same as dest).
+ * *_strcat - concatenates two strings.
+ * @dest : first string.
+ * @src : second string.
+ * Return: Always 0.
  */
-char *_strcat(char *dest, const char *src)
+
+char *_strcat(char *dest, char *src)
 {
-    char *ptr = dest;
+int i = 0, j = 0;
 
-    // Find the end of the destination string
-    while (*dest != '\0')
-    {
-        dest++;
-    }
-
-    // Copy characters from the source string to the end of destination string
-    while (*src != '\0')
+	while (dest[i] != '\0')
 	{
-	*dest = *src;
-	dest++;
-	src++;
-   	}
-    // Add the null-terminator at the end
-	*dest = '\0';
+		i++;
+	}
+	while (src[j] != '\0')
+	{
+		dest[i] = src[j];
+		j++;
+		i++;
+	}
 
-	return ptr;
+	dest[i] = '\0';
+	return (dest);
 }
-
